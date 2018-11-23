@@ -1,0 +1,221 @@
+/* Main */
+body {
+    margin: 0px;
+}
+
+h2, h3 {
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    text-align: center;
+    color: #f3f355;
+}
+
+p {
+    color: #888;
+    text-align: left;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #00000055;
+    color: white;
+    text-align: center;
+}
+
+/* Misc */
+.align-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.gray-text {
+    color: #d9d9d9;
+    margin: 0px 0px;
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    background-color: #000;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.label {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+
+/* Home */
+.cardDiv {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #40404055;
+    border: 2px solid #ccc;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+/* Profile */
+/* Background */
+.profileBodyAlbedo {
+    background:
+    /* top: transparent grey, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),
+    /* bottom: image */
+    url(../images/styles/albedo_background.jpg) repeat-y;
+    background-size: cover;
+    /*background-color: #F5F5F5;*/
+}
+
+/* Sub-titulos H1 */
+.profileHeader {
+    font-family: "Georgia", serif;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Sub-titulos H2-H3 */
+.profileHeader2 {
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    text-align: center;
+    color: #f3f355;
+    padding: 0px;
+    margin: 5px;
+}
+
+/* Container */
+.profileDiv {
+    padding: 0px;
+    overflow: auto;
+}
+
+.aboutDiv, .tableDiv {
+    padding: 10px;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.aboutDiv {
+    background-color: #50505033;
+}
+
+.tableDiv {
+    margin-top: 80px;
+}
+
+/* Imagem do perfil */
+.profileImage {
+    height: 160px; width: 160px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Paragrafo */
+.profileText {
+    color: #b2b5b6;
+    text-align: center;
+    width: 50%;
+}
+
+/* Table */
+.profileTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    color: #f3f3f3;
+    background-color: #80808055;
+    margin-top: 30px;
+}
+
+.profileTable tr:hover {
+    background-color: #80808040;
+}
+
+.profileTable td, .profileTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.profileTable th {
+    width: 25%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #00000075;
+    color: white;
+}
+
+/* Nav bar */
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00000055;
+}
+
+.nav-li {
+    float: left;
+}
+
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-li a:hover:not(.active) {
+    background-color: #00000075;
+}
+
+.active {
+    background-color: #80808055;
+}
+
+/*
+.active {
+    background-color: #4CAF50;
+}
+*/
+
+/* Elementos centralizados */
+.profileImage, .profileText, .profileTable {
+    margin-left: auto;
+    margin-right: auto;
+}
